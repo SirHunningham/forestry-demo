@@ -1,6 +1,6 @@
 ---
 new_page_extension: md
-auto_deploy: true
+auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
@@ -47,4 +47,4 @@ build:
   publish_env:
   - JEKYLL_ENV=production
   preview_output_directory: _site
-  output_directory: _web
+  output_directory: web
